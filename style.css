@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+    
+}
+
+#home {
+    background: rgb(153, 26, 26);
+    background: linear-gradient(90deg, rgba(153, 26, 26, 0.9364788151588761) 38%, rgba(153, 26, 26, 1) 43%, rgba(243, 244, 9, 0.7600082269235819) 57%, rgba(26, 114, 94, 0.9925012241224614) 57%, rgba(244, 217, 11, 1) 57%, rgba(236, 229, 14, 1) 58%, rgba(233, 255, 0, 0.7880194314053747) 62%, rgba(255, 234, 0, 1) 100%, rgba(14, 255, 0, 1) 100%);
+    width: 100%;
+    height: 100%
+}
+
+#contact {
+    background-color: darkturquoise;
+    width: 100%;
+    height: 100%;
+}
+
+#fleets {
+    text-align: center;
+}
+
+#eq {
+    text-align: left;
+}
+
+#features {
+    background-color:cornsilk ;
+    width: 100%;
+    height: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+#director{
+    background-color:azure;
+}
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#myCarousel {
+    background-color: linear-gradient(lightgrey 0%, white 100%);
+}
+
+#myCarousel img {
+    height: 300px;
+    margin-top: 35px;
+}
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.content {
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
